@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d0e7f9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  #hint-container {
+    margin-bottom: 20px;
+  }
+  
+  .word {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+  }
+  
+  .letter {
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+  }
+  
+  #wrong-letters-container {
+    margin-top: 20px;
+  }
+  
+  #wrong-letters span {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.5em;
+  }
+  
+  .figure-container {
+    margin: 40px 0;
+  }
+  
+  .figure-part {
+    display: none;
+    stroke: #000;
+    stroke-width: 4;
+  }
+  
+  .notification-container {
+    display: none;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .notification-container.show {
+    display: block;
+  }
+  
+  .popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
